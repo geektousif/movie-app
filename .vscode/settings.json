@@ -1,0 +1,22 @@
+{
+	"js/ts.experimental.useTsgo": false,
+	"[typescript]": {
+		"editor.defaultFormatter": "oxc.oxc-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "oxc.oxc-vscode"
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "oxc.oxc-vscode"
+	},
+	"vue.format.style.enabled": true,
+	"vue.format.script.enabled": true,
+	"oxc.enable": true,
+	"oxc.enable.oxfmt": true,
+	"oxc.enable.oxlint": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.oxc": "always",
+		"source.format.oxc": "always",
+		"source.organizeImports": "always"
+	}
+}
